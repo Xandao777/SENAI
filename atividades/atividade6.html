@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+          
+    <style>
+        #comentarios {
+          width: 80%;
+          background-color: #f1f1f1;
+          margin: 20px auto;
+          padding: 20px;
+        }
+        
+        #comentarios h2 {
+          margin-top: 0;
+        }
+        
+        #comentarios form {
+          margin-bottom: 20px;
+        }
+        
+        #comentarios label {
+          display: block;
+          margin-bottom: 10px;
+        }
+        
+        #comentarios textarea {
+          height: 100px;
+        }
+        
+        #comentarios ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        
+        #comentarios li {
+          margin-bottom: 10px;
+          padding: 10px;
+          background-color: #fff;
+          border: 1px solid #ccc;
+        }
+        
+        #comentarios li:last-child {
+          margin-bottom: 0;
+        }
+        
+        #comentarios li strong {
+          font-weight: bold;
+        }
+      </style>
+      
+</head>
+<body>
+    <div id="comentarios">
+        <h2>Comentários</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br>
+          <label for="comentario">Comentário:</label>
+          <textarea id="comentario" name="comentario"></textarea><br>
+          <input type="submit" value="Enviar">
+        </form>
+        <ul>
+          <li>
+            <strong>Demolidor:</strong> O xandao e o cara mais foda desse mundo
+          </li>
+          <li>
+            <strong>Paidela777:</strong> O xandao e foda
+          </li>
+        </ul>
+      </div>
+</body>
+</html>
